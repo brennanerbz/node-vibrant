@@ -2163,9 +2163,6 @@ module.exports = BrowserImage = (function(superClass) {
       this.img = document.createElement('img');
       this.img.src = path;
     }
-    if (!isRelativeUrl(path) && !isSameOrigin(window.location.href, path)) {
-      this.img.crossOrigin = 'anonymous';
-    }
     this.img.onload = (function(_this) {
       return function() {
         _this._initCanvas();
