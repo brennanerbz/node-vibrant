@@ -1,11 +1,12 @@
 {
-  "name": "node-vibrant",
-  "version": "2.1.2",
+  "name": "brennan-node-vibrant",
+  "version": "2.1.3",
   "description": "Node.js port of vibrant.js. Get color variations from an image. Basically a JS port of Android's Palette",
   "main": "lib/index.js",
   "browser": "lib/browser.js",
   "directories": {
-    "example": "examples"
+    "example": "examples",
+    "test": "test"
   },
   "dependencies": {
     "jimp": "^0.2.4",
@@ -48,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/akfish/node-vibrant.git"
+    "url": "git+https://github.com/brennanerbz/node-vibrant"
   },
   "keywords": [
     "color",
@@ -62,5 +63,9 @@
     "colour"
   ],
   "author": "akfish",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brennanerbz/node-vibrant/issues"
+  },
+  "homepage": "https://github.com/brennanerbz/node-vibrant#readme"
 }
